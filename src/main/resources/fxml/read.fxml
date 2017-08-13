@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.CheckBox?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.otr.dbms.controller.ReadController">
+  <children>
+    <ScrollPane layoutX="0.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+      <content>
+        <VBox prefHeight="297.0" prefWidth="455.0">
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Name" text="Name"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="SubjectCode" text="SubjectCode"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="IDNumber" text="IDNumber"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Phone" text="Phone"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="DateTest" text="DateTest"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Birthdate" text="Birthdate"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Age" text="Age"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Gr" text="Gr"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Sex" text="Sex"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Bac" text="Bac"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Edu" text="Edu"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="EduY" text="EduY"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MusEdu" text="MusEdu"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MusEduY" text="MusEduY"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Hand" text="Hand"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Profession" text="Profession"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CurrentWork" text="CurrentWork"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Intoxicant" text="Intoxicant"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Eye" text="Eye"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Ear" text="Ear"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="InjuryWithFainting" text="InjuryWithFainting"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Fainting" text="Fainting"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Neurologist" text="Neurologist"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Psychiatrist" text="Psychiatrist"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Depression" text="Depression"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Hypertension" text="Hypertension"/>
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+      </content>
+    </ScrollPane>
+    <ScrollPane layoutX="400.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+      <content>
+        <VBox prefHeight="297.0" prefWidth="455.0">
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="HeartAttack" text="HeartAttack"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CardiacArrest" text="CardiacArrest"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CardiacInsuff" text="CardiacInsuff"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="KidneysInsuff" text="KidneysInsuff"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="LiverInsuff" text="LiverInsuff"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Diabetes" text="Diabetes"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Thyroid" text="Thyroid"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Lungs" text="Lungs"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Neurodegeneration" text="Neurodegeneration"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="OtherDisorders" text="OtherDisorders"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Alco_now" text="Alco_now"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Alco_pa" text="Alco_pa"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Drugs" text="Drugs"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="AgeOnset" text="AgeOnset"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="AgeDiagnosis" text="AgeDiagnosis"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="DiseaseDurationY" text="DiseaseDurationY"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MemoryComplains" text="MemoryComplains"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="OtherCognitiveComplains" text="OtherCognitiveComplains"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="SideSymptOnSet" text="SideSymptOnSet"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CurrentSympt" text="CurrentSympt"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox  alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TK_MRI" text="TK_MRI"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="AsymmsymptNow" text="AsymmsymptNow"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MotPhenot" text="MotPhenot"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSDyskin_32_33_34_35" text="UPDRSDyskin_32_33_34_35"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSMotFluct36_37_38_39" text="UPDRSMotFluct36_37_38_39"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSFalling_13" text="UPDRSFalling_13"/>
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+      </content>
+    </ScrollPane>
+    <ScrollPane layoutX="800.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+      <content>
+        <VBox prefHeight="297.0" prefWidth="455.0">
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Hallucination_2" text="Hallucination_2"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="HallucinationOnSetY" text="HallucinationOnSetY"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Medications" text="Medications"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="L_Dopaequiv" text="L_Dopaequiv"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="OtherTreatment" text="OtherTreatment"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Surg" text="Surg"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Surg_Desc" text="Surg_Desc"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="ADLON" text="ADLON"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="ADLOFF" text="ADLOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="IADLON" text="IADLON"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="IADLOFF" text="IADLOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="HAndYON" text="HAndYON"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="HAndYOFF" text="HAndYOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="SchAndEngON" text="SchAndEngON"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="SchAndEngOFF" text="SchAndEngOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSON" text="UPDRSON"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSOFF" text="UPDRSOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSION" text="UPDRSION"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIOFF" text="UPDRSIOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIION" text="UPDRSIION"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIIOFF" text="UPDRSIIOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIIION" text="UPDRSIIION"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIIIOFF" text="UPDRSIIIOFF"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_Speech_5" text="UPDRS_Speech_5"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_Speech_18" text="UPDRS_Speech_18"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_FacialExpress_19" text="UPDRS_FacialExpress_19"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_TremorRest_20" text="UPDRS_TremorRest_20"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_EssentialTremor_21" text="UPDRS_EssentialTremor_21"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_Ridigity_22" text="UPDRS_Ridigity_22"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_DigitMov23" text="UPDRS_DigitMov23"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIII_HandMov_24" text="UPDRSIII_HandMov_24"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSRapidAlterHandMov_25" text="UPDRSRapidAlterHandMov_25"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSLegAgility_26" text="UPDRSLegAgility_26"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSArisingChair_27" text="UPDRSArisingChair_27"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSPosture_28" text="UPDRSPosture_28"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_PostureStab_29" text="UPDRS_PostureStab_29"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRS_Gait_30" text="UPDRS_Gait_30"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UPDRSIII_Bradykinesia_31" text="UPDRSIII_Bradykinesia_31"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Progression_PD" text="Progression_PD"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSI" text="UMSARSI"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII" text="UMSARSII"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSIII_Orthostatic" text="UMSARSIII_Orthostatic"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSIV" text="UMSARSIV"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSI_II" text="UMSARSI_II"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSISpeech_1" text="UMSARSISpeech_1"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSIWalking_7" text="UMSARSIWalking_7"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSIFalling_8" text="UMSARSIFalling_8"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII_Facialexpression_1" text="UMSARSII_FacialExpression_1"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSIISpeech_2" text="UMSARSIISpeech_2"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII_OcuMotDys_3" text="UMSARSII_OcuMotDys_3"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII_TremRest_4" text="UMSARSII_TremRest_4"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII_ActTrem_5" text="UMSARSII_ActTrem_5"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSII_IncTone_6" text="UMSARSII_IncTone_6"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSRapidAlterMov_Hands_7" text="UMSARSRapidAlterMov_Hands_7"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSFingertaps_8" text="UMSARSFingertaps_8"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSLegAgility_9" text="UMSARSLegAgility_9"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+
+                <CheckBox fx:id="UMSARSHeelknee_10" text="UMSARSHeelknee_10"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSArisingChair_11" text="UMSARSArisingChair_11"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSPosture_12" text="UMSARSPosture_12"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSBodysway_13" text="UMSARSBodysway_13"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="UMSARSGait_14" text="UMSARSGait_14"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="AttentionFactACE_III" text="AttentionFactACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MemFactACE_III" text="MemFactACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="FluencyFactACE_III" text="FluencyFactACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="LangFactACE_III" text="LangFactACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="VisualFactACE_III" text="VisualFactACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TotalACE_III" text="TotalACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TotalMini_ACE_III" text="TotalMini_ACE_III"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MMSE" text="MMSE"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="FAB12" text="FAB12"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BDI13_14" text="BDI13_14"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GDS9_10" text="GDS9_10"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_RPicture" text="WAIS_RPicture"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_RPictureCent" text="WAIS_RPictureCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_1_5" text="CVLT_1_5"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+
+                <CheckBox fx:id="CVLT_1_5Sten" text="CVLT_1_5Sten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_A_1" text="CVLT_A_1"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_A_1Sten" text="CVLT_A_1Sten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_A_5" text="CVLT_A_5"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_A_5Sten" text="CVLT_A_5Sten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_B" text="CVLT_B"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_BSten" text="CVLT_BSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSTM_Free" text="CVLTSTM_Free"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSTM_FreeSten" text="CVLTSTM_FreeSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSTM_Cued" text="CVLTSTM_Cued"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSTM_CuedSten" text="CVLTSTM_CuedSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTLTM_Free" text="CVLTLTM_Free"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTLTM_FreeSten" text="CVLTLTM_FreeSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTLTM_Cued" text="CVLTLTM_Cued"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTLTM_CuedSten" text="CVLTLTM_CuedSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSemCluster" text="CVLTSemCluster"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTSemClustSten" text="CVLTSemClustSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTserialClust" text="CVLTserialClust"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTserialClustSten" text="CVLTserialClustSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectI" text="CVLTPercentCorrectI"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectISten" text="CVLTPercentCorrectISten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectII" text="CVLTPercentCorrectII"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectIISten" text="CVLTPercentCorrectIISten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectIII" text="CVLTPercentCorrectIII"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPercentCorrectIIISten" text="CVLTPercentCorrectIIISten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTagreeFactor" text="CVLTagreeFactor"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTagreeFactorSten" text="CVLTagreeFactorSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTPERS" text="CVLTPERS"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="PERSSten" text="PERSSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTintrusFree" text="CVLTintrusFree"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTintrusFreeSten" text="CVLTintrusFreeSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTintrusCues" text="CVLTintrusCues"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLTintrusCuesSten" text="CVLTintrusCuesSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_RecogTotal" text="CVLT_RecogTotal"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_RecogTotalSten" text="CVLT_RecogTotalSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_Differentiation" text="CVLT_Differentiation"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_DifferentiationSten" text="CVLT_DifferentiationSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_ErrorRecog" text="CVLT_ErrorRecog"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CVLT_ErrorRecogSten" text="CVLT_ErrorRecogSten"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_A" text="TMT_A"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_Acent" text="TMT_Acent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_A_errors" text="TMT_A_errors"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_B" text="TMT_B"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_Bcent" text="TMT_Bcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TMT_B_errors" text="TMT_B_errors"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Rythymtest_ABC" text="Rythymtest_ABC"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Rythymtest_ABCranga" text="Rythymtest_ABCranga"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalCorrect" text="TOL_TotalCorrect"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalCorrectCent" text="TOL_TotalCorrectCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalMoveScore" text="TOL_TotalMoveScore"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalMoveScoreCent" text="TOL_TotalMoveScoreCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalInitTime" text="TOL_TotalInitTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalInitTimeCent" text="TOL_TotalInitTimeCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalExecutTime" text="TOL_TotalExecutTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalExecutTimeCent" text="TOL_TotalExecutTimeCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalTime" text="TOL_TotalTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="TOL_TotalTimeCent" text="TOL_TotalTimeCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="FluencyKraw" text="FluencyKraw"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="FluencyAnimalsRaw" text="FluencyAnimalsRaw"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="FluencySharpsRaw" text="FluencySharpsRaw"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BNTTotalScore" text="BNTTotalScore"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BNTCorrectPhonemCues" text="BNTCorrectPhonemCues"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BNTCorrectSemantCues" text="BNTCorrectSemantCues"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BNTCorrectContextCues" text="BNTCorrectContextCues"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="BNTTotalTime" text="BNTTotalTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CLOX1Draw" text="CLOX1Draw"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="CLOX2Copy" text="CLOX2Copy"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="RBMTShortDelay" text="RBMTShortDelay"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="RBMTShortDelayCent" text="RBMTShortDelayCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="RBMTLongDelay" text="RBMTLongDelay"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="RBMTLongDelayCent" text="RBMTLongDelayCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGOProcentInCorrGO" text="GONOGOProcentInCorrGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGOProcentInCorrNOGO" text="GONOGOProcentInCorrNOGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGONrInCorrGO" text="GONOGONrInCorrGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGONrInCorrNOGO" text="GONOGONrInCorrNOGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGONrCorrectGO" text="GONOGONrCorrectGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="GONOGONrCorrectNOGO" text="GONOGONrCorrectNOGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MeanResponseTimeCorrrectGO" text="MeanResponseTimeCorrrectGO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="ElevatorCountTotal" text="ElevatorCountTotal"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="ElevatorCountTotalCent" text="ElevatorCountTotalCent"/>
+              </children>
+            </HBox>
+          </children><children>
+          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+            <children>
+              <CheckBox fx:id="ElevatorDistractTotal" text="ElevatorDistractTotal"/>
+            </children>
+          </HBox>
+        </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="ElevatorDistractTotalCent" text="ElevatorDistractTotalCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTLPP" text="WCSTLPP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTLPO" text="WCSTLPO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTLBO" text="WCSTLBO"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCST_LBOcent" text="WCST_LBOcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPB" text="WCSTPB"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTOP" text="WCSTOP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTOPcent" text="WCSTOPcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPOP" text="WCSTPOP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTBP" text="WCSTBP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTBPcent" text="WCSTBPcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPBP" text="WCSTPBP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPBPcent" text="WCSTPBPcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTBN" text="WCSTBN"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTBNcent" text="WCSTBNcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPBN" text="WCSTPBN"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTODP" text="WCSTODP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPODP" text="WCSTPODP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPODPcent" text="WCSTPODPcent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTLZK" text="WCSTLZK"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPPMZ" text="WCSTPPMZ"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTPUN" text="WCSTPUN"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WCSTUU" text="WCSTUU"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Similar_WAISTotal" text="Similar_WAISTotal"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="Similar_WAISCent" text="Similar_WAISCent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_Info" text="WAIS_Info"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_Info_Cent" text="WAIS_Info_Cent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_DigitSpan" text="WAIS_DigitSpan"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="WAIS_DigitSpan_Cent" text="WAIS_DigitSpan_Cent"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MirrorTotalTime" text="MirrorTotalTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MirrorMeanTime" text="MirrorMeanTime"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MirrorCorrectScore" text="MirrorCorrectScore"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <CheckBox fx:id="MirrorErrors" text="MirrorErrors"/>
+            </children>
+          </HBox>
+        </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="MirrorCorrectedErrors" text="MirrorCorrectedErrors"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="JLOCorrect" text="JLOCorrect"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="JLOWP" text="JLOWP"/>
+              </children>
+            </HBox>
+          </children>
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <CheckBox fx:id="JLOcent" text="JLOcent"/>
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+      </content>
+    </ScrollPane>
+  </children>
+</Pane>

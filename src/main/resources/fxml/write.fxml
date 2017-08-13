@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.otr.dbms.controller.WriteController">
+   <children>
+      <Button fx:id="btnCreate" layoutX="0.0" layoutY="670.0" mnemonicParsing="false" onAction="#create" text="Create" />
+      <Button fx:id="btnClean" layoutX="70.0" layoutY="670.0" mnemonicParsing="false" onAction="#clean" text="Clean" />
+      <ScrollPane layoutX="0.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+         <content>
+            <VBox prefHeight="297.0" prefWidth="455.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label  text="Name" />
+                        <TextField fx:id="Name" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="SubjectCode" />
+                        <TextField fx:id="SubjectCode" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="IDNumber" />
+                        <TextField fx:id="IDNumber" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Phone" />
+                        <TextField fx:id="Phone" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="DateTest" />
+                        <TextField fx:id="DateTest" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Birthdate" />
+                        <TextField fx:id="Birthdate" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Age" />
+                        <TextField fx:id="Age" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Gr" />
+                        <TextField fx:id="Gr" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Sex" />
+                        <TextField fx:id="Sex" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Bac" />
+                        <TextField fx:id="Bac" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Edu" />
+                        <TextField fx:id="Edu" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="EduY" />
+                        <TextField fx:id="EduY" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MusEdu" />
+                        <TextField fx:id="MusEdu" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MusEduY" />
+                        <TextField fx:id="MusEduY" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Hand" />
+                        <TextField fx:id="Hand" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Profession" />
+                        <TextField fx:id="Profession" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CurrentWork" />
+                        <TextField fx:id="CurrentWork" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Intoxicant" />
+                        <TextField fx:id="Intoxicant" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Eye" />
+                        <TextField fx:id="Eye" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Ear" />
+                        <TextField fx:id="Ear" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="InjuryWithFainting" />
+                        <TextField fx:id="InjuryWithFainting" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Fainting" />
+                        <TextField fx:id="Fainting" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Neurologist" />
+                        <TextField fx:id="Neurologist" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Psychiatrist" />
+                        <TextField fx:id="Psychiatrist" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Depression" />
+                        <TextField fx:id="Depression" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Hypertension" />
+                        <TextField fx:id="Hypertension" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="400.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+         <content>
+            <VBox prefHeight="297.0" prefWidth="455.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="HeartAttack" />
+                        <TextField fx:id="HeartAttack" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CardiacArrest" />
+                        <TextField fx:id="CardiacArrest" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CardiacInsuff" />
+                        <TextField fx:id="CardiacInsuff" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="KidneysInsuff" />
+                        <TextField fx:id="KidneysInsuff" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="LiverInsuff" />
+                        <TextField fx:id="LiverInsuff" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Diabetes" />
+                        <TextField fx:id="Diabetes" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Thyroid" />
+                        <TextField fx:id="Thyroid" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Lungs" />
+                        <TextField fx:id="Lungs" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Neurodegeneration" />
+                        <TextField fx:id="Neurodegeneration" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="OtherDisorders" />
+                        <TextField fx:id="OtherDisorders" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Alco_now" />
+                        <TextField fx:id="Alco_now" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Alco_pa" />
+                        <TextField fx:id="Alco_pa" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Drugs" />
+                        <TextField fx:id="Drugs" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="AgeOnset" />
+                        <TextField fx:id="AgeOnset" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="AgeDiagnosis" />
+                        <TextField fx:id="AgeDiagnosis" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="DiseaseDurationY" />
+                        <TextField fx:id="DiseaseDurationY" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MemoryComplains" />
+                        <TextField fx:id="MemoryComplains" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="OtherCognitiveComplains" />
+                        <TextField fx:id="OtherCognitiveComplains" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="SideSymptOnSet" />
+                        <TextField fx:id="SideSymptOnSet" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CurrentSympt" />
+                        <TextField fx:id="CurrentSympt" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox  alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label  text="TK_MRI" />
+                        <TextField fx:id="TK_MRI" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="AsymmsymptNow" />
+                        <TextField fx:id="AsymmsymptNow" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MotPhenot" />
+                        <TextField fx:id="MotPhenot" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSDyskin_32_33_34_35" />
+                        <TextField fx:id="UPDRSDyskin_32_33_34_35" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSMotFluct36_37_38_39" />
+                        <TextField fx:id="UPDRSMotFluct36_37_38_39" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSFalling_13" />
+                        <TextField fx:id="UPDRSFalling_13" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="800.0" layoutY="0.0" prefHeight="670.0" prefWidth="400.0">
+         <content>
+            <VBox prefHeight="297.0" prefWidth="455.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Hallucination_2" />
+                        <TextField fx:id="Hallucination_2" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="HallucinationOnSetY" />
+                        <TextField fx:id="HallucinationOnSetY" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Medications" />
+                        <TextField fx:id="Medications" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="L_Dopaequiv" />
+                        <TextField fx:id="L_Dopaequiv" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="OtherTreatment" />
+                        <TextField fx:id="OtherTreatment" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Surg" />
+                        <TextField fx:id="Surg" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Surg_Desc" />
+                        <TextField fx:id="Surg_Desc" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="ADLON" />
+                        <TextField fx:id="ADLON" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="ADLOFF" />
+                        <TextField fx:id="ADLOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="IADLON" />
+                        <TextField fx:id="IADLON" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="IADLOFF" />
+                        <TextField fx:id="IADLOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="HAndYON" />
+                        <TextField fx:id="HAndYON" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="HAndYOFF" />
+                        <TextField fx:id="HAndYOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="SchAndEngON" />
+                        <TextField fx:id="SchAndEngON" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="SchAndEngOFF" />
+                        <TextField fx:id="SchAndEngOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSON" />
+                        <TextField fx:id="UPDRSON" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSOFF" />
+                        <TextField fx:id="UPDRSOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSION" />
+                        <TextField fx:id="UPDRSION" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIOFF" />
+                        <TextField fx:id="UPDRSIOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIION" />
+                        <TextField fx:id="UPDRSIION" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIIOFF" />
+                        <TextField fx:id="UPDRSIIOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIIION" />
+                        <TextField fx:id="UPDRSIIION" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIIIOFF" />
+                        <TextField fx:id="UPDRSIIIOFF" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_Speech_5" />
+                        <TextField fx:id="UPDRS_Speech_5" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_Speech_18" />
+                        <TextField fx:id="UPDRS_Speech_18" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_FacialExpress_19" />
+                        <TextField fx:id="UPDRS_FacialExpress_19" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_TremorRest_20" />
+                        <TextField fx:id="UPDRS_TremorRest_20" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_EssentialTremor_21" />
+                        <TextField fx:id="UPDRS_EssentialTremor_21" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_Ridigity_22" />
+                        <TextField fx:id="UPDRS_Ridigity_22" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_DigitMov23" />
+                        <TextField fx:id="UPDRS_DigitMov23" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIII_HandMov_24" />
+                        <TextField fx:id="UPDRSIII_HandMov_24" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSRapidAlterHandMov_25" />
+                        <TextField fx:id="UPDRSRapidAlterHandMov_25" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSLegAgility_26" />
+                        <TextField fx:id="UPDRSLegAgility_26" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSArisingChair_27" />
+                        <TextField fx:id="UPDRSArisingChair_27" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSPosture_28" />
+                        <TextField fx:id="UPDRSPosture_28" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_PostureStab_29" />
+                        <TextField fx:id="UPDRS_PostureStab_29" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRS_Gait_30" />
+                        <TextField fx:id="UPDRS_Gait_30" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UPDRSIII_Bradykinesia_31" />
+                        <TextField fx:id="UPDRSIII_Bradykinesia_31" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Progression_PD" />
+                        <TextField fx:id="Progression_PD" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSI" />
+                        <TextField fx:id="UMSARSI" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII" />
+                        <TextField fx:id="UMSARSII" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSIII_Orthostatic" />
+                        <TextField fx:id="UMSARSIII_Orthostatic" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSIV" />
+                        <TextField fx:id="UMSARSIV" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSI_II" />
+                        <TextField fx:id="UMSARSI_II" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSISpeech_1" />
+                        <TextField fx:id="UMSARSISpeech_1" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSIWalking_7" />
+                        <TextField fx:id="UMSARSIWalking_7" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSIFalling_8" />
+                        <TextField fx:id="UMSARSIFalling_8" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII_FacialExpression_1" />
+                        <TextField fx:id="UMSARSII_Facialexpression_1" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSIISpeech_2" />
+                        <TextField fx:id="UMSARSIISpeech_2" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII_OcuMotDys_3" />
+                        <TextField fx:id="UMSARSII_OcuMotDys_3" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII_TremRest_4" />
+                        <TextField fx:id="UMSARSII_TremRest_4" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII_ActTrem_5" />
+                        <TextField fx:id="UMSARSII_ActTrem_5" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSII_IncTone_6" />
+                        <TextField fx:id="UMSARSII_IncTone_6" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSRapidAlterMov_Hands_7" />
+                        <TextField fx:id="UMSARSRapidAlterMov_Hands_7" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSFingertaps_8" />
+                        <TextField fx:id="UMSARSFingertaps_8" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSLegAgility_9" />
+                        <TextField fx:id="UMSARSLegAgility_9" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSHeelknee_10" />
+                        <TextField fx:id="UMSARSHeelknee_10" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSArisingChair_11" />
+                        <TextField fx:id="UMSARSArisingChair_11" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSPosture_12" />
+                        <TextField fx:id="UMSARSPosture_12" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSBodysway_13" />
+                        <TextField fx:id="UMSARSBodysway_13" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="UMSARSGait_14" />
+                        <TextField fx:id="UMSARSGait_14" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="AttentionFactACE_III" />
+                        <TextField fx:id="AttentionFactACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MemFactACE_III" />
+                        <TextField fx:id="MemFactACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="FluencyFactACE_III" />
+                        <TextField fx:id="FluencyFactACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="LangFactACE_III" />
+                        <TextField fx:id="LangFactACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="VisualFactACE_III" />
+                        <TextField fx:id="VisualFactACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TotalACE_III" />
+                        <TextField fx:id="TotalACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TotalMini_ACE_III" />
+                        <TextField fx:id="TotalMini_ACE_III" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MMSE" />
+                        <TextField fx:id="MMSE" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="FAB12" />
+                        <TextField fx:id="FAB12" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BDI13_14" />
+                        <TextField fx:id="BDI13_14" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GDS9_10" />
+                        <TextField fx:id="GDS9_10" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_RPicture" />
+                        <TextField fx:id="WAIS_RPicture" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_RPictureCent" />
+                        <TextField fx:id="WAIS_RPictureCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_1_5" />
+                        <TextField fx:id="CVLT_1_5" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_1_5Sten" />
+                        <TextField fx:id="CVLT_1_5Sten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_A_1" />
+                        <TextField fx:id="CVLT_A_1" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_A_1Sten" />
+                        <TextField fx:id="CVLT_A_1Sten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_A_5" />
+                        <TextField fx:id="CVLT_A_5" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_A_5Sten" />
+                        <TextField fx:id="CVLT_A_5Sten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_B" />
+                        <TextField fx:id="CVLT_B" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_BSten" />
+                        <TextField fx:id="CVLT_BSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSTM_Free" />
+                        <TextField fx:id="CVLTSTM_Free" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSTM_FreeSten" />
+                        <TextField fx:id="CVLTSTM_FreeSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSTM_Cued " />
+                        <TextField fx:id="CVLTSTM_Cued" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSTM_CuedSten" />
+                        <TextField fx:id="CVLTSTM_CuedSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTLTM_Free" />
+                        <TextField fx:id="CVLTLTM_Free" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTLTM_FreeSten" />
+                        <TextField fx:id="CVLTLTM_FreeSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTLTM_Cued" />
+                        <TextField fx:id="CVLTLTM_Cued" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTLTM_CuedSten" />
+                        <TextField fx:id="CVLTLTM_CuedSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSemCluster" />
+                        <TextField fx:id="CVLTSemCluster" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTSemClustSten" />
+                        <TextField fx:id="CVLTSemClustSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTserialClust" />
+                        <TextField fx:id="CVLTserialClust" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTserialClustSten" />
+                        <TextField fx:id="CVLTserialClustSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectI" />
+                        <TextField fx:id="CVLTPercentCorrectI" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectISten" />
+                        <TextField fx:id="CVLTPercentCorrectISten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectII" />
+                        <TextField fx:id="CVLTPercentCorrectII" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectIISten" />
+                        <TextField fx:id="CVLTPercentCorrectIISten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectIII" />
+                        <TextField fx:id="CVLTPercentCorrectIII" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPercentCorrectIIISten" />
+                        <TextField fx:id="CVLTPercentCorrectIIISten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTagreeFactor" />
+                        <TextField fx:id="CVLTagreeFactor" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTagreeFactorSten" />
+                        <TextField fx:id="CVLTagreeFactorSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTPERS" />
+                        <TextField fx:id="CVLTPERS" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="PERSSten" />
+                        <TextField fx:id="PERSSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTintrusFree" />
+                        <TextField fx:id="CVLTintrusFree" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTintrusFreeSten" />
+                        <TextField fx:id="CVLTintrusFreeSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTintrusCues" />
+                        <TextField fx:id="CVLTintrusCues" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLTintrusCuesSten" />
+                        <TextField fx:id="CVLTintrusCuesSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_RecogTotal" />
+                        <TextField fx:id="CVLT_RecogTotal" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_RecogTotalSten" />
+                        <TextField fx:id="CVLT_RecogTotalSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_Differentiation" />
+                        <TextField fx:id="CVLT_Differentiation" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_DifferentiationSten" />
+                        <TextField fx:id="CVLT_DifferentiationSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_ErrorRecog" />
+                        <TextField fx:id="CVLT_ErrorRecog" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CVLT_ErrorRecogSten" />
+                        <TextField fx:id="CVLT_ErrorRecogSten" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_A" />
+                        <TextField fx:id="TMT_A" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_Acent" />
+                        <TextField fx:id="TMT_Acent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_A_errors" />
+                        <TextField fx:id="TMT_A_errors" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_B" />
+                        <TextField fx:id="TMT_B" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_Bcent" />
+                        <TextField fx:id="TMT_Bcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TMT_B_errors" />
+                        <TextField fx:id="TMT_B_errors" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Rythymtest_ABC" />
+                        <TextField fx:id="Rythymtest_ABC" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Rythymtest_ABCranga" />
+                        <TextField fx:id="Rythymtest_ABCranga" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalCorrect" />
+                        <TextField fx:id="TOL_TotalCorrect" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalCorrectCent" />
+                        <TextField fx:id="TOL_TotalCorrectCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalMoveScore" />
+                        <TextField fx:id="TOL_TotalMoveScore" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalMoveScoreCent" />
+                        <TextField fx:id="TOL_TotalMoveScoreCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalInitTime" />
+                        <TextField fx:id="TOL_TotalInitTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalInitTimeCent" />
+                        <TextField fx:id="TOL_TotalInitTimeCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalExecutTime" />
+                        <TextField fx:id="TOL_TotalExecutTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalExecutTimeCent" />
+                        <TextField fx:id="TOL_TotalExecutTimeCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalTime" />
+                        <TextField fx:id="TOL_TotalTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="TOL_TotalTimeCent" />
+                        <TextField fx:id="TOL_TotalTimeCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="FluencyKraw" />
+                        <TextField fx:id="FluencyKraw" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="FluencyAnimalsRaw" />
+                        <TextField fx:id="FluencyAnimalsRaw" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="FluencySharpsRaw" />
+                        <TextField fx:id="FluencySharpsRaw" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BNTTotalScore" />
+                        <TextField fx:id="BNTTotalScore" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BNTCorrectPhonemCues" />
+                        <TextField fx:id="BNTCorrectPhonemCues" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BNTCorrectSemantCues" />
+                        <TextField fx:id="BNTCorrectSemantCues" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BNTCorrectContextCues" />
+                        <TextField fx:id="BNTCorrectContextCues" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="BNTTotalTime" />
+                        <TextField fx:id="BNTTotalTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CLOX1Draw" />
+                        <TextField fx:id="CLOX1Draw" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="CLOX2Copy" />
+                        <TextField fx:id="CLOX2Copy" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="RBMTShortDelay" />
+                        <TextField fx:id="RBMTShortDelay" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="RBMTShortDelayCent" />
+                        <TextField fx:id="RBMTShortDelayCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="RBMTLongDelay" />
+                        <TextField fx:id="RBMTLongDelay" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="RBMTLongDelayCent" />
+                        <TextField fx:id="RBMTLongDelayCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGOProcentInCorrGO" />
+                        <TextField fx:id="GONOGOProcentInCorrGO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGOProcentInCorrNOGO" />
+                        <TextField fx:id="GONOGOProcentInCorrNOGO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGONrInCorrGO" />
+                        <TextField fx:id="GONOGONrInCorrGO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGONrInCorrNOGO" />
+                        <TextField fx:id="GONOGONrInCorrNOGO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGONrCorrectGO" />
+                        <TextField fx:id="GONOGONrCorrectGO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="GONOGONrCorrectNOGO" />
+                        <TextField fx:id="GONOGONrCorrectNOGO" />
+                     </children>
+                  </HBox>
+               </children><children>
+               <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label text="MeanResponseTimeCorrrectGO" />
+                     <TextField fx:id="MeanResponseTimeCorrrectGO" />
+                  </children>
+               </HBox>
+            </children><children>
+               <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label text="ElevatorCountTotal" />
+                     <TextField fx:id="ElevatorCountTotal" />
+                  </children>
+               </HBox>
+            </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="ElevatorCountTotalCent" />
+                        <TextField fx:id="ElevatorCountTotalCent" />
+                     </children>
+                  </HBox>
+               </children><children>
+               <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label text="ElevatorDistractTotal" />
+                     <TextField fx:id="ElevatorDistractTotal" />
+                  </children>
+               </HBox>
+            </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="ElevatorDistractTotalCent" />
+                        <TextField fx:id="ElevatorDistractTotalCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTLPP" />
+                        <TextField fx:id="WCSTLPP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTLPO" />
+                        <TextField fx:id="WCSTLPO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTLBO" />
+                        <TextField fx:id="WCSTLBO" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCST_LBOcent" />
+                        <TextField fx:id="WCST_LBOcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPB" />
+                        <TextField fx:id="WCSTPB" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTOP" />
+                        <TextField fx:id="WCSTOP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTOPcent" />
+                        <TextField fx:id="WCSTOPcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPOP" />
+                        <TextField fx:id="WCSTPOP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTBP" />
+                        <TextField fx:id="WCSTBP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTBPcent" />
+                        <TextField fx:id="WCSTBPcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPBP" />
+                        <TextField fx:id="WCSTPBP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPBPcent" />
+                        <TextField fx:id="WCSTPBPcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTBN" />
+                        <TextField fx:id="WCSTBN" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTBNcent" />
+                        <TextField fx:id="WCSTBNcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPBN" />
+                        <TextField fx:id="WCSTPBN" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTODP" />
+                        <TextField fx:id="WCSTODP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPODP" />
+                        <TextField fx:id="WCSTPODP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPODPcent" />
+                        <TextField fx:id="WCSTPODPcent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTLZK" />
+                        <TextField fx:id="WCSTLZK" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPPMZ" />
+                        <TextField fx:id="WCSTPPMZ" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTPUN" />
+                        <TextField fx:id="WCSTPUN" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WCSTUU" />
+                        <TextField fx:id="WCSTUU" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Similar_WAISTotal" />
+                        <TextField fx:id="Similar_WAISTotal" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Similar_WAISCent" />
+                        <TextField fx:id="Similar_WAISCent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_Info" />
+                        <TextField fx:id="WAIS_Info" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_Info_Cent" />
+                        <TextField fx:id="WAIS_Info_Cent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_DigitSpan" />
+                        <TextField fx:id="WAIS_DigitSpan" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="WAIS_DigitSpan_Cent" />
+                        <TextField fx:id="WAIS_DigitSpan_Cent" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MirrorTotalTime" />
+                        <TextField fx:id="MirrorTotalTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MirrorMeanTime" />
+                        <TextField fx:id="MirrorMeanTime" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MirrorCorrectScore" />
+                        <TextField fx:id="MirrorCorrectScore" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MirrorErrors" />
+                        <TextField fx:id="MirrorErrors" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="MirrorCorrectedErrors" />
+                        <TextField fx:id="MirrorCorrectedErrors" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="JLOCorrect" />
+                        <TextField fx:id="JLOCorrect" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="JLOWP" />
+                        <TextField fx:id="JLOWP" />
+                     </children>
+                  </HBox>
+               </children>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="JLOcent" />
+                        <TextField fx:id="JLOcent" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>
